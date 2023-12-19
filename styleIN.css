@@ -1,0 +1,155 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@100&family=Press+Start+2P&family=Roboto+Condensed&family=Teko:wght@300&display=swap');
+
+/* Resetando estilos padrão */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Estilos para o contêiner principal */
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+/* Estilos para a seção da esquerda */
+#esquerda {
+    background-color: black;
+    height: 100vh;
+    width: 30%;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#esquerda > span > p {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20%;
+}
+
+#esquerda > span {
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+#recep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20%;
+    font-size: 15px;
+}
+
+#recep > p {
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.esq {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+#rotape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+/* Estilos para a seção da direita */
+#direita {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+#cadastro > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cadastro > h3 {
+    font-size: 15px;
+    color: rgb(105, 104, 104);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10%;
+}
+
+.inputREQ {
+    width: 100%;
+    border: 2px solid #999999;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+
+.bn3 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bn59 {
+    background-color: #141414;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+
+
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+  }
